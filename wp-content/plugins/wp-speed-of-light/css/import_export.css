@@ -1,0 +1,79 @@
+/*Modal check minify*/
+.import-export-dialog{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.import-export .text-intro {
+    font-size: 15px;
+    margin: 20px 0 0 10px;
+}
+
+.import-export-dialog import-export-title h2{
+    color: #575757;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+    display: block;
+}
+
+.import-export-dialog .import-export-content{
+    margin-bottom: 30px;
+    padding: 5px 15px 0 15px;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 300;
+    float: none;
+    line-height: normal;
+    color: #555;
+}
+
+.import-export-dialog .import-select-error {
+    display: none;
+    margin-left: 50px;
+}
+
+.import-export .export-btn,
+.import-export .import-btn {
+    float: right;
+}
+
+.import-export .export-btn,
+.import-export-dialog .import-export-button .agree-export{
+    background-color: #ff8726;
+    border: 1px solid #ff8726;
+}
+
+.import-export .import-btn,
+.import-export-dialog .import-export-button .agree-import{
+    background-color: #bd362f;
+    border: 1px solid #bd362f;
+}
+
+/** jQuery UI Dialog overrides **/
+
+.noPadding.ui-dialog .ui-dialog-content {
+    padding: 0;
+}
+.noTitle .ui-dialog-titlebar {
+    display: none;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: none;
+    text-align: center;
+}
+.ui-widget-overlay{
+    z-index: 1000;
+    position: fixed !important;
+}
+.ui-dialog{
+    z-index: 2000;
+    border-radius: 10px !important;
+}

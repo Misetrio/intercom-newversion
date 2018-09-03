@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Post List Table\n"
+"POT-Creation-Date: 2016-09-11 04:37+0600\n"
+"PO-Revision-Date: 2016-09-11 04:37+0600\n"
+"Last-Translator: wpbean <imranmodel35@gmail.com>\n"
+"Language-Team: WpBean <imranmodel35@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: inc\n"
+
+#: inc/class.post-list-table.php:52
+msgid "No."
+msgstr ""
+
+#: inc/class.post-list-table.php:53
+msgid "ID"
+msgstr ""
+
+#: inc/class.post-list-table.php:54
+msgid "Title"
+msgstr ""
+
+#: inc/class.post-list-table.php:55
+msgid "Price"
+msgstr ""
+
+#: inc/class.post-list-table.php:56
+msgid "SKU"
+msgstr ""
+
+#: inc/class.post-list-table.php:57
+msgid "Stock"
+msgstr ""
+
+#: inc/class.post-list-table.php:58
+msgid "Review"
+msgstr ""
+
+#: inc/class.post-list-table.php:59 inc/class.post-list-table.php:60
+msgid "Product Quick View"
+msgstr ""
+
+#: inc/class.post-list-table.php:61
+msgid "Wishlist"
+msgstr ""
+
+#: inc/class.post-list-table.php:62 inc/class.post-list-table.php:89
+msgid "Compare"
+msgstr ""
+
+#: inc/class.post-list-table.php:63
+msgid "Cart"
+msgstr ""
+
+#: inc/class.post-list-table.php:64
+msgid "Author"
+msgstr ""
+
+#: inc/class.post-list-table.php:65
+msgid "Date"
+msgstr ""
+
+#: inc/class.post-list-table.php:66
+msgid "Category"
+msgstr ""
+
+#: inc/class.post-list-table.php:67
+msgid "Tag"
+msgstr ""
+
+#: inc/class.post-list-table.php:68
+msgid "Comment"
+msgstr ""
+
+#: inc/class.post-list-table.php:69 inc/class.post-list-table.php:96
+msgid "Edit"
+msgstr ""
+
+#: inc/class.post-list-table.php:86
+msgid "Quick View"
+msgstr ""
+
+#: inc/class.post-list-table.php:95
+msgid "Leave a reply"
+msgstr ""
+
+#: inc/class.post-list-table.php:95
+msgid "1 Reply"
+msgstr ""
+
+#: inc/class.post-list-table.php:95
+msgid "% Replies"
+msgstr ""
+
+#: inc/class.post-list-table.php:115
+msgid "No post found according to your shortcode."
+msgstr ""
+
+#: inc/class.post-list-table.php:174
+msgid "&laquo;"
+msgstr ""
+
+#: inc/class.post-list-table.php:175
+msgid "&raquo;"
+msgstr ""
+
+#: inc/class.post-list-table.php:186
+msgid "Page "
+msgstr ""
+
+#: inc/class.post-list-table.php:186
+msgid " of "
+msgstr ""
+
+#: inc/class.settings-api.php:347
+msgid "Choose File"
+msgstr ""
+
+#: inc/class.settings-fields.php:31
+msgid "Post list table settings"
+msgstr ""
+
+#: inc/class.settings-fields.php:31
+msgid "Post list settings"
+msgstr ""
+
+#: inc/class.settings-fields.php:38
+msgid "General Settings"
+msgstr ""
+
+#: inc/class.settings-fields.php:50
+msgid "Row Number"
+msgstr ""
+
+#: inc/class.settings-fields.php:51
+msgid "Post ID"
+msgstr ""
+
+#: inc/class.settings-fields.php:52
+msgid "Post Title"
+msgstr ""
+
+#: inc/class.settings-fields.php:53
+msgid "Post Author"
+msgstr ""
+
+#: inc/class.settings-fields.php:54
+msgid "Post Date"
+msgstr ""
+
+#: inc/class.settings-fields.php:55
+msgid "Post Category"
+msgstr ""
+
+#: inc/class.settings-fields.php:56
+msgid "Post Tags"
+msgstr ""
+
+#: inc/class.settings-fields.php:57
+msgid "Post Comment"
+msgstr ""
+
+#: inc/class.settings-fields.php:58
+msgid "Post Edit Link"
+msgstr ""
+
+#: inc/class.settings-fields.php:65
+msgid "WooCommerce Price"
+msgstr ""
+
+#: inc/class.settings-fields.php:66
+msgid "WooCommerce SKU"
+msgstr ""
+
+#: inc/class.settings-fields.php:67
+msgid "WooCommerce Stock"
+msgstr ""
+
+#: inc/class.settings-fields.php:68
+msgid "WooCommerce Review"
+msgstr ""
+
+#: inc/class.settings-fields.php:69
+msgid "WooCommerce Add to cart"
+msgstr ""
+
+#: inc/class.settings-fields.php:78
+msgid "WPB WooCommerce LightBox"
+msgstr ""
+
+#: inc/class.settings-fields.php:87
+msgid "YITH WooCommerce QuickView"
+msgstr ""
+
+#: inc/class.settings-fields.php:96
+msgid "YITH WooCommerce Wish List"
+msgstr ""
+
+#: inc/class.settings-fields.php:105
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: inc/class.settings-fields.php:143
+msgid "Select Post Type"
+msgstr ""
+
+#: inc/class.settings-fields.php:144
+msgid "You can select your own custom post type. Default: post."
+msgstr ""
+
+#: inc/class.settings-fields.php:151
+msgid "Table content"
+msgstr ""
+
+#: inc/class.settings-fields.php:152
+msgid "Select table content."
+msgstr ""
+
+#: inc/class.settings-fields.php:159
+msgid "Table Style"
+msgstr ""
+
+#: inc/class.settings-fields.php:160
+msgid "Select a table style"
+msgstr ""
+
+#: inc/class.settings-fields.php:164
+msgid "Default"
+msgstr ""
+
+#: inc/class.settings-fields.php:165
+msgid "Striped"
+msgstr ""
+
+#: inc/class.settings-fields.php:166
+msgid "Bordered"
+msgstr ""
+
+#: inc/class.settings-fields.php:167
+msgid "Hover"
+msgstr ""

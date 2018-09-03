@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+    src: url('fonts/MaterialIcons-Regular.woff2') format('woff2'),
+    url('fonts/MaterialIcons-Regular.woff') format('woff'),
+    url('fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.material-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+/*tooltip*/
+
+.material-tooltip {
+    padding: 18px 20px;
+    font-size: 16px;
+    z-index: 10000;
+    background-color: transparent;
+    border-radius: 2px;
+    color: #fff;
+    min-height: 0;
+    line-height: 100%;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    will-change: top, left;
+    max-width: 400px;
+}
+
+.backdrop {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    height: 7px;
+    width: 14px;
+    border-radius: 0 0 14px 14px;
+    background-color: #FC9C4D;
+    z-index: -1;
+    -webkit-transform-origin: 50% 10%;
+    -moz-transform-origin: 50% 10%;
+    -ms-transform-origin: 50% 10%;
+    -o-transform-origin: 50% 10%;
+    transform-origin: 50% 10%;
+    will-change: transform, opacity;
+}
+/*-------------------------------------------------------
+    CSS FOR DASHBOARD
+*/
+
+.wpsol-dashboard {
+    margin: 100px;
+}
+.wpsol-dashboard .header {
+    margin-bottom: 48px;
+}
+.wpsol-dashboard .title span {
+    font-size: 50px;
+    font-weight: 500;
+}
+.wpsol-dashboard .sub-title {
+    margin-top: 20px;
+}
+.wpsol-dashboard .sub-title a {
+    text-decoration: none;
+    color: #FC9C4D;
+    font-size: 20px;
+}
+
+.wpsol-dashboard .image-dashboard {
+    box-shadow: 0 20px 40px 0 rgba(160, 166, 190, 0.1);
+}
+.wpsol-dashboard .image-dashboard img{
+    max-width: 530px;
+    max-height: 350px;
+}
+
+.container {
+    max-width: 1506px;
+}
+
+/*TOP LEFT*/
+.container .top-content {
+    margin-bottom: 60px;
+}
+.container .top-content .tc-left{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+/*TOP RIGHT*/
+.container .top-content .tc-right{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.tc-right .list-element-left {
+    float: left;
+    margin-right: 20px;
+}
+.tc-right .list-element-right {
+    float: left;
+}
+
+ul.top-field {
+    margin: 0;
+}
+
+ul.top-field li {
+    width: 400px;
+    height: 90px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px 0 rgba(160, 166, 190, 0.1);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1600px) {
+    ul.top-field li {
+        width: 300px;
+    }
+
+    .wpsol-dashboard .link-area#link-cacheclean {
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+    .wpsol-dashboard .image-dashboard img {
+        max-width: 350px;
+    }
+    .container .top-content .tc-left {
+        margin-right: 30px;
+    }
+    ul.top-field li {
+        width: 240px;
+        height: 60px;
+    }
+    .tc-right .top-field-icon-left,
+    .tc-right span.panel-title,
+    .tc-right .top-field-icon-right{
+        line-height: 60px !important;
+    }
+    .tc-right .top-field-icon-left,
+    .tc-right img.custom-material-icon{
+        margin-left: 10px !important;
+        margin-right: 5px !important;
+    }
+    .wpsol-dashboard .link-area#link-cacheclean {
+        margin-left: 1px;
+    }
+    .tc-right .top-field-icon-right {
+        margin-right: 10px !important;
+    }
+    .tc-right span.panel-title {
+        font-size: 14px !important;
+    }
+    img.custom-material-icon-right {
+        margin-top: 15px !important;
+        margin-right: 10px !important;
+    }
+}
+
+ul.top-field li:last-child {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+img.custom-material-icon {
+    width: 27px;
+    height: 27px;
+    line-height: 90px;
+    margin-left: 20px;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+}
+
+img.custom-material-icon-right {
+    width: 27px;
+    height: 27px;
+    vertical-align: text-bottom;
+    float: right;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+
+.tc-right .top-field-icon-right.success {
+    color: #49bf88;
+}
+
+.tc-right .top-field-icon-right.info {
+    color: #ffb25d;
+}
+
+.tc-right .top-field-icon-right.notice-important {
+    color: #58a9ff;
+}
+
+.tc-right .top-field-icon-left {
+    line-height: 90px;
+    vertical-align: top;
+    color : #96A2BB;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 27px;
+}
+.tc-right span.panel-title {
+    line-height: 90px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: initial;
+    color : #6c748a;
+}
+
+.tc-right .top-field-icon-right {
+    float: right;
+    line-height: 90px;
+    margin-right: 20px;
+    font-size: 27px;
+}
+
+/*// MID CONTENT*/
+.mid-content {
+    max-width: 1506px;
+}
+
+.mid-content .mid-title {
+    font-size: 23px;
+    margin-bottom: 20px;
+    max-height: 60px;
+    line-height: 30px;
+    color: #96A2BB;
+    text-transform: capitalize;
+    cursor: default;
+}
+
+.mid-content .mid-link a{
+    font-size: 19px;
+    height: 30px;
+    line-height: 30px;
+    color: #96A2BB;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mid-content .mid-panel {
+    width: auto;
+    align-items: center;
+}
+
+.mid-content .mid-panel .panel{
+    height: 130px;
+    background-color: #ffffff;
+    margin-right: 40px;
+    width: 346px;
+    float: left;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.mid-content .mid-panel .panel-4 {
+    margin: 0 !important;
+}
+
+.panel .icon {
+    width: 103px;
+    height: 110px;
+    color: #FFFFFF;
+    text-align: center;
+    float: left;
+    margin: 10px 20px 0 10px;
+    border-radius: 5px;
+}
+
+.panel .icon .material-icons {
+    font-size: 50px;
+    line-height: 110px;
+
+}
+
+.panel ul {
+    float: left;
+    margin: 0;
+    margin-top: 33px;
+
+}
+
+.panel ul li .title{
+    font-size: 23px;
+    color: #96A2BB;
+}
+
+.panel ul li:first-child {
+    margin-bottom: 15px;
+}
+
+.panel ul li .detail {
+    font-size: 25px;
+    color: #4F5660;
+    font-weight: bold;
+}
+
+.panel-1 .icon {
+    background-image: linear-gradient(155deg, #a9dcff, #149aff);
+}
+
+.panel-2 .icon {
+    background-image: linear-gradient(154deg, #ffb47f, #ff923e);
+}
+.panel-3 .icon {
+    background-image: linear-gradient(150deg, #a7d878, #43c695);
+}
+.panel-4 .icon {
+    background-image: linear-gradient(159deg, #f39696, #f37382);
+}
+
+/*BOT CONTENT*/
+.bot-content {
+    margin-top: 70px;
+}
+.bot-content .bot-title {
+    font-size: 23px;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #96A2BB;
+    text-transform: capitalize;
+    cursor: default;
+}
+.bot-content .bc-center ul li,
+.bot-content .bc-left ul li
+{
+    position: relative;
+}
+.bot-content .panel-addon {
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #F7F0EB;
+    border-radius: 5px;
+    color: #ffa45a;
+    background-color: #F7F0EB;
+    position: absolute;
+    top: 17px;
+    right: 18px;
+    font-weight: 500;
+}
+
+.bot-content .bc-left,
+.bot-content .bc-center,
+.bot-content .bc-right{
+    width: 448px;
+    float: left;
+    margin-right: 80px;
+}
+.bot-content .bc-right {
+    margin-right: 0;
+}
+
+.bot-content .bot-panel ul {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    border-radius: 5px;
+}
+
+.bot-content .bot-panel ul li {
+    margin: 0;
+    padding: 18px 18px 30px 18px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px 0 rgba(160, 166, 190, 0.1);
+    border-radius: unset;
+}
+
+.bot-content .bot-panel ul li .title {
+    margin-bottom: 18px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bot-content .bot-panel ul li .panel {
+    font-size: 15px;
+    color: #9FADBD;
+}
+
+.bot-content ul li:nth-child(even) {
+    background-color: #f7fafc;
+}
+
+.bot-content ul li:nth-child(odd) {
+    background-color: #ffffff;
+}
+@media only screen and (max-width: 1890px) and (min-width: 700px){
+    .mid-content .bot-content {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .mid-content .bot-content {
+        max-width: 500px;
+    }
+}
+
+.wpsol-dashboard .link-area {
+    display: inline-block;
+    margin-left: 5px;
+    visibility: hidden;
+}
+
+.wpsol-dashboard .link-area .material-icons {
+    vertical-align: middle;
+    font-size: 34px;
+    margin-bottom: 5px;
+    color: #96A2BB;
+}
+
+.wpsol-dashboard .link-area.link-area-hover {
+    visibility: initial;
+}
+.wpsol-dashboard .bot-content .link-area .material-icons{
+    margin-bottom : 3px;
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1300px){
+    .mid-content .mid-panel .panel {
+        max-width: 23%;
+        max-height: 70px;
+        margin-right: 12px;
+    }
+    .panel .icon {
+        max-width: 60px;
+        max-height: 60px;
+        margin: 5px 10px 0 5px;
+    }
+    .panel .icon .material-icons {
+        font-size: 37px;
+        line-height: 60px;
+    }
+
+    .panel ul {
+        margin-top: 13px;
+    }
+    .panel ul li .title,
+    .panel ul li .detail {
+        font-size: 13px;
+    }
+    .panel ul li:first-child {
+        margin-bottom: 7px;
+    }
+    .container .top-content {
+        margin-bottom: 25px;
+    }
+    .bot-content {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+    .mid-content .mid-panel .panel {
+        max-width: 23%;
+        max-height: 100px;
+        margin-right: 15px;
+    }
+    .panel .icon {
+        max-width: 80px;
+        max-height: 80px;
+        margin: 10px 15px 0 10px;
+    }
+    .panel .icon .material-icons {
+        font-size: 48px;
+        line-height: 80px;
+    }
+    .panel ul {
+        margin-top: 20px;
+    }
+
+    .panel ul li .title,
+    .panel ul li .detail {
+        font-size: 17px;
+    }
+    .panel ul li:first-child {
+        margin-bottom: 10px;
+    }
+    .container .top-content {
+        margin-bottom: 25px;
+    }
+    .bot-content {
+        margin-top: 25px;
+    }
+
+}
+

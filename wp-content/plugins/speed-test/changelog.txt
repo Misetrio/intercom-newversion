@@ -1,0 +1,16 @@
+Speedtest
+by DSLtester.de
+
+V1.0 - 23.11.2008
+- NEW : Completely new
+
+
+V1.1 - 29.11.2008
+- new size: 180 x 315 px
+
+V2.0 - 16.12.2008
+- NEW : no preload
+- NEW : new install procedure
+
+V2.1 - 13.01.2009
+- minor bug fix

@@ -1,0 +1,45 @@
+#wp-admin-bar-wpsol-clean-cache-topbar .ab-item .ab-icon:before {
+    content: "\f218";
+    top: 1px;
+}
+
+.wpsol_addon_notice {
+    padding : 10px;
+    background-color : #00AFF5;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.wpsol_addon_notice{
+    border: none;
+    margin-left: 0 !important;
+}
+
+.wpsol_addon_notice .notice-dismiss:before{
+    color: #ffffff;
+}
+
+.wpsol_addon_notice a.pro-addon{
+    text-decoration: none;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+#wp-admin-bar-wpsol-clean-cache-topbar .ab-item  .wpsol-ab-images{
+    position: relative;
+    float: left;
+    speak: none;
+    padding: 6px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 6px;
+    display: none;
+}
+
+.system-active-cache button.notice-dismiss{
+    height: 45px;
+}
+
+#adminmenu .wp-not-current-submenu.toplevel_page_wpsol_dashboard li>a {
+    padding-left: 9px !important;
+}
